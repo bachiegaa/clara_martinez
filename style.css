@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6e6e6;
+    color: #333;
+    line-height: 1.6;
+}
+.logo{
+    height:100px;
+    width:400px;
+
+}
+.bemvindo{
+    border: none;
+    border-radius: 20px; 
+    background-color: #ffffff; 
+    display: grid; 
+    height: 180px;
+    width: 90%; 
+    padding: 40px;
+    justify-items: center;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    border-color: white;
+    background-color: white;
+    border-style: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.mensagem{
+    width: 380px;
+    height: 100px;
+}
+.orcamento{
+    border: none;
+    border-radius: 20px; 
+    background-color: #ffffff;
+    height: 460px;
+    width: 30%; 
+    padding: 40px;
+    
+    margin-left: 35%;
+}
+.content {
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff; 
+    height: 370px;
+    width: 90%;
+    padding: 40px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+}
+
+.ata{
+    height:300px;
+    width:300px;
+    border-radius: 4px;
+}
+
+.atah{
+    height:180px;
+    width:200px;
+    border-radius: 4px;
+}
+
+
+h1, h2 {
+    font-weight: 300;
+    color: #333;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+    color: white;
+}
+.navbar {
+    background-color: midnightblue;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+button {
+    color: white;
+    background-color:midnightblue;
+    border-radius: 5px;
+    border-style: hidden;
+    width: 130px;
+    height: 30px;
+    transition: 0.3s ease;
+    
+}
+button:hover {
+    background-color: rgb(99, 99, 200);
+}
+
+button a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.servico{
+height: 200px;
+width: 230px;
+}
+
+.precos{
+    display: flex;
+    justify-content: space-around;
+}
+.clara{
+    display: flex;
+    justify-content: space-around;
+    font-size:large;
+}
+
+.casamentos{
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff; 
+    height: 280px;
+    width: 90%;
+    padding: 40px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+} 
+
+.contatos{
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff; 
+    height: 280px;
+    width: 90%;
+    padding: 40px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+}
